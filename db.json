@@ -1,0 +1,105 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "name": "Running Shoes",
+      "price": 90,
+      "discount": 10,
+      "image": "/img/product1.jpg",
+      "description": "Product 1 description",
+      "available": 0,
+      "tags": [
+        "running",
+        "shoes"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Casual Boots",
+      "price": 150,
+      "discount": 0,
+      "image": "/img/product2.jpg",
+      "description": "Product 2 description",
+      "available": 0,
+      "tags": [
+        "casual",
+        "boots"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Flip Flops",
+      "price": 30,
+      "discount": 50,
+      "image": "/img/product3.jpg",
+      "description": "Product 3 description",
+      "available": 67,
+      "tags": [
+        "flip",
+        "flops"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Sneakers",
+      "price": 400,
+      "discount": 0,
+      "image": "/img/product1.jpg",
+      "description": "Product 4 description",
+      "available": 24,
+      "tags": [
+        "sneakers"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Sandals",
+      "price": 500,
+      "discount": 10,
+      "image": "/img/product2.jpg",
+      "description": "Product 5 description",
+      "available": 0,
+      "tags": [
+        "sandals"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Hiking Boots",
+      "price": 600,
+      "discount": 50,
+      "image": "/img/product3.jpg",
+      "description": "Product 6 description",
+      "available": 75,
+      "tags": [
+        "hiking",
+        "boots"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Loafers",
+      "price": 700,
+      "discount": 0,
+      "image": "/img/product1.jpg",
+      "description": "Product 7 description",
+      "available": 15,
+      "tags": [
+        "loafers"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Slippers",
+      "price": 800,
+      "discount": 0,
+      "image": "/img/product2.jpg",
+      "description": "Product 8 description",
+      "available": 0,
+      "tags": [
+        "slippers"
+      ]
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
