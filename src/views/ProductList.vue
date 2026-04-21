@@ -65,20 +65,46 @@ const relatedProducts = computed(() => {
 </script>
 
 <template>
-
-  <div>
-    <h2 class="text-2xl font-bold mb-5 before:content-['|'] before:text-primary before:mr-2 my-5">
-      Special Products
-    </h2>
-    <div v-if="loading">
-      <Loading/>
+  <div class="container mx-auto px-4 py-8">
+    <!-- Section Header -->
+    <div class="text-center mb-12">
+      <h2 class="text-3xl md:text-4xl font-bold mb-4">
+        <span class="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
+          Special Products
+        </span>
+      </h2>
+      <p class="text-base-content/70 max-w-2xl mx-auto">
+        Explore our curated selection of premium products with exclusive offers
+      </p>
     </div>
-    <div v-else class="grid lg:grid-cols-4 md:grid-cols-2 sm:grid-cols-1 gap-x-5 gap-y-5">
+
+    <!-- Loading State -->
+    <div v-if="loading" class="flex justify-center items-center py-20">
+      <div class="text-center space-y-4">
+        <Loading />
+        <p class="text-base-content/70 animate-pulse">Loading amazing products...</p>
+      </div>
+    </div>
+
+    <!-- Products Grid -->
+    <div v-else-if="relatedProducts.length > 0" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
       <ProductCard
-        v-for="product in relatedProducts"
+        v-for="(product, index) in relatedProducts"
         :key="product.id"
         :product="product"
+        class="animate-fade-in"
+        :style="{ animationDelay: `${index * 0.1}s` }"
       />
+    </div>
+
+    <!-- Empty State -->
+    <div v-else class="text-center py-20">
+      <svg class="w-24 h-24 mx-auto mb-4 text-base-content/30" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"></path>
+      </svg>
+      <h3 class="text-xl font-semibold mb-2">No products found</h3>
+      <p class="text-base-content/70 mb-6">Check back later for new arrivals</p>
+      <button class="btn btn-primary">Continue Shopping</button>
     </div>
   </div>
 </template>

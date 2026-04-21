@@ -2,102 +2,130 @@
   "products": [
     {
       "id": "1",
-      "name": "Running Shoes",
-      "price": 90,
-      "discount": 10,
-      "image": "/img/product1.jpg",
-      "description": "Product 1 description",
-      "available": 0,
+      "name": "Professional Running Shoes",
+      "price": 129.99,
+      "discount": 15,
+      "image": "/img/running-shoes.jpg",
+      "description": "Engineered for performance, these professional running shoes feature advanced cushioning technology and breathable mesh upper. Perfect for marathon training and daily runs with superior shock absorption and lightweight design.",
+      "available": 45,
       "tags": [
         "running",
-        "shoes"
+        "athletic",
+        "performance",
+        "cushioned",
+        "breathable"
       ]
     },
     {
       "id": "2",
-      "name": "Casual Boots",
-      "price": 150,
+      "name": "Classic Casual Boots",
+      "price": 189.99,
       "discount": 0,
-      "image": "/img/product2.jpg",
-      "description": "Product 2 description",
-      "available": 0,
+      "image": "/img/casual-boots.jpg",
+      "description": "Timeless style meets modern comfort in these versatile casual boots. Crafted from premium leather with a comfortable cushioned insole, perfect for everyday wear and special occasions alike.",
+      "available": 32,
       "tags": [
         "casual",
-        "boots"
+        "boots",
+        "leather",
+        "comfortable",
+        "versatile"
       ]
     },
     {
       "id": "3",
-      "name": "Flip Flops",
-      "price": 30,
-      "discount": 50,
-      "image": "/img/product3.jpg",
-      "description": "Product 3 description",
-      "available": 67,
+      "name": "Summer Flip Flops",
+      "price": 24.99,
+      "discount": 40,
+      "image": "/img/flip-flops.jpg",
+      "description": "Lightweight and comfortable flip flops perfect for beach days and poolside relaxation. Features ergonomic footbed design and durable rubber sole for all-day comfort.",
+      "available": 120,
       "tags": [
-        "flip",
-        "flops"
+        "flip-flops",
+        "summer",
+        "beach",
+        "casual",
+        "comfortable"
       ]
     },
     {
       "id": "4",
-      "name": "Sneakers",
-      "price": 400,
-      "discount": 0,
-      "image": "/img/product1.jpg",
-      "description": "Product 4 description",
-      "available": 24,
+      "name": "Urban Street Sneakers",
+      "price": 159.99,
+      "discount": 20,
+      "image": "/img/sneakers.jpg",
+      "description": "Make a statement with these stylish urban sneakers. Combining street-style aesthetics with premium materials, featuring responsive cushioning and a durable outsole for city exploration.",
+      "available": 68,
       "tags": [
-        "sneakers"
+        "sneakers",
+        "urban",
+        "streetwear",
+        "fashion",
+        "trendy"
       ]
     },
     {
       "id": "5",
-      "name": "Sandals",
-      "price": 500,
-      "discount": 10,
-      "image": "/img/product2.jpg",
-      "description": "Product 5 description",
-      "available": 0,
+      "name": "Elegant Leather Sandals",
+      "price": 89.99,
+      "discount": 25,
+      "image": "/img/sandals.jpg",
+      "description": "Sophisticated leather sandals designed for both comfort and style. Features adjustable straps and cushioned footbed, perfect for summer evenings and casual outings.",
+      "available": 85,
       "tags": [
-        "sandals"
+        "sandals",
+        "leather",
+        "elegant",
+        "summer",
+        "adjustable"
       ]
     },
     {
       "id": "6",
-      "name": "Hiking Boots",
-      "price": 600,
-      "discount": 50,
-      "image": "/img/product3.jpg",
-      "description": "Product 6 description",
-      "available": 75,
+      "name": "Mountain Hiking Boots",
+      "price": 249.99,
+      "discount": 30,
+      "image": "/img/hiking-boots.jpg",
+      "description": "Conquer any terrain with these rugged hiking boots. Waterproof construction with advanced grip technology and ankle support. Built for serious outdoor enthusiasts and trail adventures.",
+      "available": 25,
       "tags": [
         "hiking",
-        "boots"
+        "boots",
+        "outdoor",
+        "waterproof",
+        "durable"
       ]
     },
     {
       "id": "7",
-      "name": "Loafers",
-      "price": 700,
-      "discount": 0,
-      "image": "/img/product1.jpg",
-      "description": "Product 7 description",
-      "available": 15,
+      "name": "Premium Leather Loafers",
+      "price": 179.99,
+      "discount": 10,
+      "image": "/img/loafers.jpg",
+      "description": "Classic sophistication meets modern comfort in these premium leather loafers. Handcrafted with attention to detail, featuring cushioned insoles and non-slip soles for business and casual settings.",
+      "available": 34,
       "tags": [
-        "loafers"
+        "loafers",
+        "leather",
+        "formal",
+        "business",
+        "classic"
       ]
     },
     {
       "id": "8",
-      "name": "Slippers",
-      "price": 800,
+      "name": "Cozy Memory Foam Slippers",
+      "price": 39.99,
       "discount": 0,
-      "image": "/img/product2.jpg",
-      "description": "Product 8 description",
-      "available": 0,
+      "image": "/img/slippers.jpg",
+      "description": "Ultimate comfort for your feet with these memory foam slippers. Features plush lining, anti-slip sole, and arch support. Perfect for relaxing at home after a long day.",
+      "available": 95,
       "tags": [
-        "slippers"
+        "slippers",
+        "comfort",
+        "memory-foam",
+        "indoor",
+        "cozy"
       ]
     }
   ],
